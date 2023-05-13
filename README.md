@@ -21,7 +21,7 @@ Mid Level Python Test
 * SQlite3
 
 ### Setup
-## Installation on Linux and Mac OS
+## Installation on Linux, Mac OS and Windows
 * Clone project from the develop branch
 ```
 git clone -b develop https://github.com/coupcode/Faithom-Django-Backend.git
