@@ -18,7 +18,8 @@ class ScrapeCryptoCurrencyView(APIView):
         start()
         
         data = ScrapeCryptoCurrency(request)
-        
+        print(data)
+        print('data =======')
         CryptoCurrency.objects.create(
             name=data['name'],
             symbol=data['symbol'],
@@ -39,7 +40,7 @@ class CurrencyRecordViewSet(
     mixins.ListModelMixin
 ):
     queryset = CryptoCurrency.objects.all()
-    serializers_class = CryptoCurrencySerializer
+    serializer_class = CryptoCurrencySerializer
 
 
     

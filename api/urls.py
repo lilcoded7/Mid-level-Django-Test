@@ -7,11 +7,13 @@ app_name = "Crypto Currency"
 
 router = DefaultRouter()
 
-router.register("records", CurrencyRecordViewSet,  basename='update')
+router.register("records", CurrencyRecordViewSet)
+
+
 
 
 
 urlpatterns = [
     path('run-scraper/', ScrapeCryptoCurrencyView.as_view(), name='scrap'),
-    # path("", include(router.urls)),
+    path("", include(router.urls)),
 ]
