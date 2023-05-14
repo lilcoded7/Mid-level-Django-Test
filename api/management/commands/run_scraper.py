@@ -17,7 +17,7 @@ class Command(BaseCommand):
 
         ws = wb.active
         
-        # ws.append(['Name', 'Symbol', 'Market Cap', 'Price', 'Circulating Supply', 'Volume'])
+        ws.append(['Name', 'Symbol', 'Market Cap', 'Price', 'Circulating Supply', 'Volume'])
         
         crypto_currencies = CryptoCurrency.objects.all()
         for crypto in crypto_currencies:
