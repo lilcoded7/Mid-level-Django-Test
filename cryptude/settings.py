@@ -14,8 +14,6 @@ from pathlib import Path
 import environ
 import os 
 
-env = environ.Env()
-environ.Env.read_env()
 
 # Build paths inside the project like this: BASE_DIR / 'subdir'.
 BASE_DIR = Path(__file__).resolve().parent.parent
@@ -25,7 +23,7 @@ BASE_DIR = Path(__file__).resolve().parent.parent
 # See https://docs.djangoproject.com/en/4.2/howto/deployment/checklist/
 
 # SECURITY WARNING: keep the secret key used in production secret!
-SECRET_KEY = env('SECRET_KEY')
+SECRET_KEY = 'django-insecure-%^6)zyw58^883a@vj5bj^8-!9p#9(26ixt0a7)fda%e!z7*eo8'
 
 # SECURITY WARNING: don't run with debug turned on in production!
 DEBUG = True
@@ -136,8 +134,8 @@ STATIC_ROOT = BASE_DIR / "staticfiles"
 MEDIA_ROOT = '/media/'
 
 
-STATICFILES_DIRS = os.path.join(BASE_DIR, 'static'), 
-MEDIA_ROOT = os.path.join(BASE_DIR, 'media')
+# STATICFILES_DIRS = os.path.join(BASE_DIR, 'static'), 
+# MEDIA_ROOT = os.path.join(BASE_DIR, 'media')
 
 # Default primary key field type
 # https://docs.djangoproject.com/en/4.2/ref/settings/#default-auto-field

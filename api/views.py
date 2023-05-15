@@ -8,9 +8,7 @@ from api.background_task import ScrapeCryptoCurrency
 from api.utils import updata_objects_if_exist, create_new_objects
 
 
-
 # Create your views here.
-
 
 class ScrapeCryptoCurrencyView(APIView):
 

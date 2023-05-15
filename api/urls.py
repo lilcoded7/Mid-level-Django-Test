@@ -10,9 +10,6 @@ router = DefaultRouter()
 router.register("records", CurrencyRecordViewSet)
 
 
-
-
-
 urlpatterns = [
     path('run-scraper/', ScrapeCryptoCurrencyView.as_view(), name='scrap'),
     path("", include(router.urls)),
