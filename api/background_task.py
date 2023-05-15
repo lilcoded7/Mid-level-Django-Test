@@ -50,9 +50,9 @@ def ScrapeCryptoCurrency(self):
     # get circulating_supply form coinmarketcap
     circulating_supply = soup.find_all(class_='cmc-table__cell cmc-table__cell--sortable cmc-table__cell--right cmc-table__cell--sort-by__circulating-supply')
     for circulating_sup in circulating_supply:
-        circulating_supply_prince = circulating_sup.text
+        circulating_supply_price = circulating_sup.text
         # break
-        cryptocurrency['circulating_supply'].append(circulating_supply_prince)
+        cryptocurrency['circulating_supply'].append(circulating_supply_price)
 
     currency_volume = soup.find_all(class_='cmc-table__cell cmc-table__cell--sortable cmc-table__cell--right cmc-table__cell--sort-by__volume-24-h')
     for volumes in currency_volume:
