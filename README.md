@@ -48,6 +48,14 @@ git clone -b develop https://github.com/coupcode/Faithom-Django-Backend.git
 * Copy the IP address provided once your server has completed building the site. (It will say something like >> Serving at http://0.0.0.0:8000).
 * Open the address in the browser
 
+## Endpoints
+```
+http://127.0.0.1:8000/api/v1/run-scraper/
+```
+```
+http://127.0.0.1:8000/api/v1/records/
+```
+
 
 ## API Documentation
 ```
