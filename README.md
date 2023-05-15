@@ -51,5 +51,6 @@ git clone -b develop https://github.com/coupcode/Faithom-Django-Backend.git
 
 ## API Documentation
 http://127.0.0.1:8000/api/v1/run-scraper/
-http://127.0.0.1:8000/api/v1/records/
 ```
+http://127.0.0.1:8000/api/v1/records/
+
