@@ -49,10 +49,6 @@ git clone -b develop https://github.com/coupcode/Faithom-Django-Backend.git
 * Open the address in the browser
 
 
-## App Endpoints
-http://127.0.0.1:8000/api/v1/run-scraper/
-http://127.0.0.1:8000/api/v1/records/
-
 ## API Documentation
 http://127.0.0.1:8000/api/v1/run-scraper/
 http://127.0.0.1:8000/api/v1/records/
