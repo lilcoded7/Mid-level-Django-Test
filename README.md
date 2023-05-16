@@ -24,7 +24,7 @@ Mid Level Python Test
 ## Installation on Linux, Mac OS and Windows
 * Clone project from the develop branch
 ```
-git clone -b develop https://github.com/coupcode/Faithom-Django-Backend.git
+git clone https://github.com/lilcoded7/Mid-level-Django-Test.git
 ```
 
 * To create a normal virtualenv (example .venv) and activate it (see Code below).
